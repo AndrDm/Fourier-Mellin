@@ -1,0 +1,38 @@
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
+	"C:\\Program Files\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files\\IVI Foundation\\VISA\\win64\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+TIMESTAMPFILE on "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\lib\\fourier_mellin.c" = "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi\\cvibuild.fourier_mellin\\Release64\\UnsavedChanges\\fourier_mellin.c" ;
+LOCATE on "fourier_mellin.c" = "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi" ;
+LOCATE on "fourier_mellin.h" = "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi" ;
+Object "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi\\cvibuild.fourier_mellin\\Release64\\fourier_mellin.obj" : "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\lib\\fourier_mellin.c" ;
+FILENUM on "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi\\cvibuild.fourier_mellin\\Release64\\fourier_mellin.obj" = 1 ;
+DEFPROTS on "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi\\cvibuild.fourier_mellin\\Release64\\fourier_mellin.obj" = "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi\\cvibuild.fourier_mellin\\Release64\\fourier_mellin.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi\\cvibuild.fourier_mellin\\Release64\\fourier_mellin.obj" = "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi\\cvibuild.fourier_mellin\\Release64\\fourier_mellin.obj.out" ;
+PrjObjects += "c:\\Users\\Andrey\\Desktop\\fourier_mellin_dev4\\cvi\\cvibuild.fourier_mellin\\Release64\\fourier_mellin.obj" ;
+Always $(PrjObjects) ;
+Depends all : $(PrjObjects) ;
