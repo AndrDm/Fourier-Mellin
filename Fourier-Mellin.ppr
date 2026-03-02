@@ -1,0 +1,96 @@
+[Config]
+Compilator.FileName=cargo
+Compilator.PSPar=build -r
+Compilator.Log=build.log
+Compilator.Run=target\release\fourier_mellin.exe
+Compilator.DefaultDir=C:\Users\Andrey\Desktop\Fourier-Mellin
+Compilator.SaveAll=1
+Compilator.Capture=1
+Compilator.CompileOnBackground=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+Compilator.LogEncoding=0
+DefaultDir=C:\Users\Andrey\Desktop\Fourier-Mellin
+DefaultCP=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+HTServer=localhost
+Extensions=*.*
+[Project tree]
+Fourier-Mellin
+	+Fourier-Mellin
+		-assets
+			assets\fm1.gif
+			assets\image-20260302140155290.png
+		+cvi
+			-cvibuild.fourier_mellin
+				-Release64
+					-UnsavedChanges
+						cvi\cvibuild.fourier_mellin\Release64\UnsavedChanges\fourier_mellin.c
+					cvi\cvibuild.fourier_mellin\Release64\CallCC.bat
+					cvi\cvibuild.fourier_mellin\Release64\CC_no_dep_options.txt
+					cvi\cvibuild.fourier_mellin\Release64\CC_options.txt
+					cvi\cvibuild.fourier_mellin\Release64\Jamfile
+			cvi\fourier_mellin.c
+			cvi\fourier_mellin.cws
+			cvi\fourier_mellin.h
+			cvi\fourier_mellin.prj
+			cvi\fourier_mellin.uir
+			cvi\fourier_mellin_bind.h
+		-doc
+			doc\1996_Reddy_Chatterji_fft_based_trans_rot_scale_invar_registr.pdf
+		-img
+			img\z00_1024.png
+			img\z01_1024.png
+			img\z02_1024.png
+			img\z03_1024.png
+			img\z04_1024.png
+			img\z05_1024.png
+			img\z06_1024.png
+			img\z07_1024.png
+			img\z08_1024.png
+			img\z09_1024.png
+			img\z10_1024.png
+			img\z11_1024.png
+		-lib
+			-msvc64
+				lib\msvc64\fourier_mellin.obj
+			lib\asynctmr.obj
+			lib\cvi.lib
+			lib\cviauto.lib
+			lib\cvirt.lib
+			lib\cvistart.lib
+			lib\cvisupp.lib
+			lib\fourier_mellin.obj
+			lib\ImageControl.obj
+			lib\instrsup_start.lib
+			lib\nivision.lib
+			lib\toolbox.obj
+		+src
+			src\fourier_mellin.rs
+			src\main.rs
+			src\main_utils.rs
+			src\nivision.rs
+			src\userint.rs
+			src\userint_ex.rs
+		.gitattributes
+		.gitignore
+		build.cmd
+		build.rs
+		Cargo.lock
+		Cargo.toml
+		LICENSE
+		README.md
+		rustfmt.toml
+[Open project files]
+0=src\main.rs
+[Selected Project Files]
+Main=src\main.rs
+Selected=src\main.rs
+[src\main.rs]
+TopLine=1
+Caret=1,8

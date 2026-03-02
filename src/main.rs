@@ -17,6 +17,7 @@ static mut IMAGE_SRC: *mut Image = ptr::null_mut();
 static mut IMAGE_DST: *mut Image = ptr::null_mut();
 static mut IMAGE_REF: *mut Image = ptr::null_mut();
 
+
 fn fourier_mellin(
 	src: *const Image,
 	reference: *const Image,
