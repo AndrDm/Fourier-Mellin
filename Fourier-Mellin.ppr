@@ -11,6 +11,7 @@ Compilator.ProgSaveAll=0
 Compilator.ProgRunSelection=0
 Compilator.LogType=0
 Compilator.LogEncoding=0
+Prog1=check,cargo check§
 DefaultDir=C:\Users\Andrey\Desktop\Fourier-Mellin
 DefaultCP=0
 LogtoEnd=1
@@ -26,7 +27,7 @@ Fourier-Mellin
 		-assets
 			assets\fm1.gif
 			assets\image-20260302140155290.png
-		+cvi
+		-cvi
 			-cvibuild.fourier_mellin
 				-Release64
 					-UnsavedChanges
@@ -92,5 +93,5 @@ Fourier-Mellin
 Main=src\main.rs
 Selected=src\main.rs
 [src\main.rs]
-TopLine=1
-Caret=1,8
+TopLine=82
+Caret=2,102
